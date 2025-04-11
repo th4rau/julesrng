@@ -2,7 +2,7 @@ local Player = game.Players.LocalPlayer
 local Character = Player.Character
 
 Player.OnTeleport:Connect(function(State)
-	queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()")
+	queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/th4rau/julesrng/refs/heads/main/hi.lua'))()")
 end)
 if game.PlaceId ~= 17297111758 then
 game:GetService("TeleportService"):Teleport(17297111758, Player)
